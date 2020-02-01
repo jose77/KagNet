@@ -65,6 +65,12 @@ python glove_to_npy.py
 python create_embeddings_glove.py
 ```
 
+#### Triple string generation
+```
+cd ../triple_string
+python triple_string_generation.py
+```
+
 #### Concept Grounding
 ```
 # concept grounding: core concept recognition (find mentioned concepts)
