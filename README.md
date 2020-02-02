@@ -104,6 +104,8 @@ python batched_pathfinding.py generate_bash "../datasets/csqa_new/dev_rand_split
 bash cmd.sh
 python batched_pathfinding.py combine "../datasets/csqa_new/dev_rand_split.jsonl.statements.mcp"
 
+pckle_save_load.py
+
 # Pruning 
 
 python path_scoring.py train
